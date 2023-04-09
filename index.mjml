@@ -1,0 +1,358 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      @media only screen and (min-width:600px) {
+        .large {
+          position: relative;
+          opacity: 1;
+        }
+
+        .bkg {
+          background: white;
+        }
+
+        .header {
+          font-size: 14px;
+          padding: 10px 0 10px 0;
+          margin: 0;
+        }
+
+        .text {
+          font-size: 14px;
+          padding: 0px 0 0px 0;
+          margin: 0;
+        }
+
+        .feature {
+          width: 800px;
+        }
+
+        .small {
+          position: absolute;
+          opacity: 0;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        .large {
+          position: absolute;
+          opacity: 0;
+        }
+
+        .header {
+          font-size: 22px;
+          padding: 10px 0 0px 0;
+          margin: 0;
+        }
+
+        .text {
+          font-size: 16px;
+          padding: 0 0 0 0;
+          margin: 0;
+          line-height: 1.3;
+          color: rgb(80, 80, 80);
+        }
+
+        .feature {
+          pad
+        }
+
+        .small {
+          position: relative;
+          opacity: 1;
+        }
+
+        .bkg {
+          background: rgb(235, 235, 235);
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+    <mj-section padding="0" css-class="large">
+      <mj-column>
+        <mj-image href="#" padding="0" src="assets\turbotax_signin.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" css-class="large" background-color="#F6F3EE">
+      <mj-column>
+        <mj-image padding="0" src="assets\get_refund.jpg" alt="" />
+      </mj-column>
+
+      <mj-column background-color="white">
+        <mj-image padding="0" src="assets\max_refund.png" alt="" />
+
+        <mj-image padding="0" src="assets\scrollbar.png" alt="" />
+
+        <mj-text font-size="16px" font-weight="bold" color="rgb(80,80,80)" padding="0" align="center">
+          Oliver, you have a head start
+        </mj-text>
+
+        <mj-text padding="10px" align="center">
+          We'll import last year's info.
+        </mj-text>
+
+        <mj-image src="assets\input.png" alt="" />
+
+        <mj-image padding-left="20px" padding-right="20px" src="assets\user_id.png" alt="" />
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section background-color="white" css-class="small" padding="0">
+      <mj-column>
+        <mj-image href="#" padding="0" src="./assets/turbotax_signin_mobile.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 0 15px 0" css-class="small" background-color="rgb(235,235,235)">
+      <mj-column css-class="bkg">
+
+        <mj-image padding="0" src="assets\scrollbar.png" alt="" />
+
+        <mj-text font-size="16px" font-weight="bold" color="rgb(80,80,80)" padding="0" align="center">
+          <p class="header">Oliver, you have a head start</p>
+        </mj-text>
+
+        <mj-text css-class="text large" font-size="16px" padding="10px" align="center">
+          We'll import last year's info.
+        </mj-text>
+
+        <mj-text css-class="text small" font-size="16px" padding="10px" align="center">
+          Sign in and we’ll import last year’s info.
+          <br>
+          <input style="width:80%;border:1px solid rgb(200,200,200); text-align:center; font-size: 16px; color:red; padding:9px; margin: 15px 0 0 0; font-weight:bold" placeholder="********" />
+        </mj-text>
+
+        <mj-image css-class="large" src="assets\input.png" alt="" />
+
+
+        <mj-image css-class="large" padding-left="100px" padding-right="100px" src="assets\user_id.png" alt="" />
+
+        <mj-image href="#" css-class="small" width="200px" src="assets\get_started.png" alt="" />
+
+        <mj-text font-size="20px" color="grey" align="center">
+          <span><img style="width:15px; margin: 0 15px" src="assets\lock.png" alt=""></span>Sign in with User ID
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section background-color="white" padding="30px 0 0 0">
+      <mj-column>
+        <mj-text padding="0" align="center" font-weight="bold" color="rgb(80,80,80)">
+          <p class="header">The sooner you file, the sooner you’ll get your money.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text align="center" padding="0 50px 0 50px">
+          <p class="text">You have everything you need to finish, file and get your maximum refund. Don’t wait any longer — let’s get started and check taxes off your list.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0 0 40px 0">
+      <mj-column>
+        <mj-text font-size="16px" font-weight="bold" padding="0" align="center"><a href="#" style="text-decoration:none">Let's get started</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 0" css-class="large">
+      <mj-column background-color="white">
+        <mj-image padding="0" src="assets\full_service.jpg" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 0" css-class="small">
+      <mj-column background-color="white">
+        <mj-image padding="0" src="assets\full_service.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0" css-class="small">
+      <mj-column>
+        <mj-text padding="0 20px" align="center" font-weight="bold" color="rgb(80,80,80)">
+          <p class="header">Hand your taxes off and let a tax expert do them for you</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="10px 0" css-class="small">
+      <mj-column>
+        <mj-text padding="0 30px" align="center">
+          <p class="text">Get matched with a dedicated tax expert to do your taxes from start to finish, keep you in the loop, and review your taxes with you before filing.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" css-class="small" padding="0 0 20px 0px">
+      <mj-column>
+        <mj-text padding="0" font-size="16px" font-weight="bold" padding="0" align="center"><a href="#" style="text-decoration:none">Sign in</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="large" background-color="white" padding="50px 0">
+      <mj-column>
+        <mj-image padding="0" width="150px" src="assets\get_started.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="small" padding="0 0 60px 0" background-color="white">
+      <mj-column>
+        <mj-image padding="0" src="assets/black_lady.jpg" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 0" css-class="small">
+      <mj-column background-color="white">
+        <mj-image padding="0" src="assets\assited.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="0" css-class="small">
+      <mj-column>
+        <mj-text padding="0 20px" align="center" font-weight="bold" color="rgb(80,80,80)">
+          <p class="header">Real tax experts review your return. Guaranteed done right.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" padding="10px 0" css-class="small">
+      <mj-column>
+        <mj-text padding="0 30px" align="center">
+          <p class="text">Get unlimited advice as you do your taxes, and an expert final review. So you can be 100% confident your return is done right, guaranteed.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" css-class="small" padding="0 0 20px 0px">
+      <mj-column>
+        <mj-text padding="0" font-size="16px" font-weight="bold" padding="0" align="center"><a href="#" style="text-decoration:none">Sign in</a></mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="small" padding="0 0 60px 0" background-color="white">
+      <mj-column>
+        <mj-image padding="0" src="assets/white_lady.jpg" alt="" />
+
+        <mj-text align="center" font-size="14px" color="rgb(150,150,150)">
+          Expertos bilingües están disponibles
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding="0" background-color="white" css-class="small">
+      <mj-column>
+        <mj-image href="#" padding="0" src="assets/store_mobile.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white" css-class="small" padding="20px 0">
+      <mj-column>
+        <mj-image href="#" padding="0" src="assets/signin.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-image href="#" css-class="feature" src="assets\features.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 50px 30px 50px" background-color="white">
+      <mj-column>
+        <mj-text align="center" padding="0">
+          <span><img style="width:10px;" src="assets\lock.png" alt=""></span>
+          <span style="font-weight:bold">Check before you click!</span> TurboTax will never ask you for personal information in an email. When you click on a link, the address should always contain <a href="#" style="text-decoration:none">"intuit.com"</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="15px 0 0 0" background-color="white" border-top="1px solid rgb(180,180,180)">
+      <mj-column width="40px" padding="0 5px 0 0">
+        <mj-image padding="0" width="40px" src="assets\facebook.png" alt="" />
+      </mj-column>
+      <mj-column width="40px" padding="0 5px 0 0">
+        <mj-image padding="0" width="40px" src="assets\instagram.png" alt="" />
+      </mj-column>
+      <mj-column width="40px" padding="0 5px 0 0">
+        <mj-image padding="0" width="40px" src="assets\twitter.png" alt="" />
+      </mj-column>
+      <mj-column width="40px" padding="0 5px 0 0">
+        <mj-image padding="0" width="40px" src="assets\tiktok.png" alt="" />
+      </mj-column>
+      <mj-column width="40px" padding="0 5px 0 0">
+        <mj-image padding="0" width="40px" src="assets\youtube.png" alt="" />
+      </mj-column>
+      <mj-column width="40px" padding="0 5px 0 0">
+        <mj-image padding="0" width="40px" src="assets\rss.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="20px 0 0 0" background-color="white">
+      <mj-column>
+        <mj-image padding="0" src="assets\intuit_large.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F4F5F8" padding="0px 20px 0px 20px">
+      <mj-column width="10%">
+        <mj-text padding="0 0 20px 0">
+          Legal
+        </mj-text>
+        <mj-text padding="0 0 20px 0">
+          Privacy
+        </mj-text>
+        <mj-text padding="0 0 20px 0">
+          Security
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="90%">
+        <mj-text align="left" padding="0 60px">
+          Prices ultimately determined at time of print or e‑file. Terms, conditions, features, availability, pricing, fees, service and support options subject to change without notice.
+        </mj-text>
+
+        <mj-text align="left" padding="10px 60px">
+          Average Refund Amount: Sum of $3252 is the average refund American taxpayers received based upon IRS data date ending 12/30/22 and may not reflect actual refund amount received.
+        </mj-text>
+
+        <mj-text align="left" padding="10px 60px">
+          <a href="#" style="text-decoration:none">Click here</a> to see TurboTax product guarantees, disclaimers and other important information.
+        </mj-text>
+
+        <mj-text align="left" padding="10px 60px">
+          This email was sent to the following address:
+          <a href="#" style="text-decoration:none">osaintilien55@gmail.com</a><br>
+          Did you receive this email in error? Find out why <br>
+          If you feel you have received this message in error or would like to unsubscribe, <a href="#" style="text-decoration:none">please click here</a> or go to <a href="#" style="text-decoration:none">Manage Preferences.</a>
+        </mj-text>
+
+        <mj-text align="left" padding="10px 60px">
+          © 2023 Intuit Inc. All rights reserved. <a href="#" style="text-decoration:none"> Trademark</a>.
+        </mj-text>
+
+        <mj-text align="left" padding="10px 60px">
+          Customer Communications, <a href="#" style="text-decoration:none">2‌800 E. Commerce Cen‌ter Place, Tuc‌son, AZ 85‌706</a>
+        </mj-text>
+
+        <mj-text align="left" padding="10px 60px">
+          5096-001
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+
+
+
+  </mj-body>
+</mjml>
